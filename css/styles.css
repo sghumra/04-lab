@@ -32,6 +32,19 @@ section {
   margin: 1em 1% 1em 1%;
   display: inline-block;
 }
-section:hover {
-  background: #666;
+    section:hover {
+        background: #666;
+}
+
+@media screen and (min-width: 500px) {
+body {
+    background: red;
+}
+
+@media screen and (min-width: 1000px) {
+body {
+    background: red;
+}
+
+
 }
